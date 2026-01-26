@@ -47,15 +47,15 @@ Table of contents
 	--font-heading: 'Montserrat', sans-serif;
 	--fontawesome: "Font Awesome 5 Pro";
 	--black: #000000;
-	--dark: #1f2b38;
-	--dark-secondary: #022b6d;
+	--dark: #175b66;
+	--dark-secondary: #3c6268;
 	--white: #ffffff;
-	--color-primary: #4ac4f3;
+	--color-primary: #267f8d;
 	--color-secondary: #1aebd6;
 	--color-heading: #232323;
 	--color-paragraph: #666666;
 	--box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
-	--bg-gray: #F7F7F7;
+	--bg-gray: #ebebeb;
   --bg-theme-small: #e1ecf1;
 	--bg-gray-secondary: #D8E7EF;
 	--bg-gradient: linear-gradient(90deg, var(--color-primary)  0%, var(--color-secondary) 100%);
@@ -3649,6 +3649,12 @@ body,
 }
 
 
+.person-img {
+    width: 130%;
+    height: auto;
+    object-fit: cover;
+}
+
 /* ============================================================== 
      # Features 
 =================================================================== */
@@ -4742,6 +4748,11 @@ body,
   position: relative;
 }
 
+.compact-section {
+  padding-top: 40px !important;
+  padding-bottom: 60px !important;
+}
+
 .testimonials-area .carousel-indicators li {
   width: 60px;
   height: 60px;
@@ -5591,7 +5602,7 @@ footer.color-yellow .footer-bottom p a {
     content: "";
     height: 50px;
     width: 50px;
-    background: url(assets/img/logo-icon.png);
+    background: url(https://res.cloudinary.com/dmtqoxsct/image/upload/v1769415732/PHG_Font_Logo_db_kxhsdo.png);
     transform: translateX(-50%);
     background-repeat: no-repeat;
     background-position: center;
@@ -5749,6 +5760,30 @@ footer.color-yellow .footer-bottom p a {
 
 .softing-preloader .loader.dark_bg .loader-section .bg {
 	background: #111339;
+}
+
+.alive h1{
+  font-size: 100px
+}
+
+.icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icon-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #3ab8ff;
+    font-size: 22px;
+    line-height: 1;
 }
 
 .softing-preloader.loaded .animation-preloader {
