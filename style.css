@@ -329,6 +329,13 @@ p {
   background-color: #ffffff56;     /* isi area kosong */
 }
 
+.img-small {
+    max-width: 65%;
+}
+
+.img-smaller {
+    max-width: 45%;
+}
 /* ============================================================== 
     # Helper CSS
 =================================================================== */
@@ -2443,6 +2450,50 @@ body,
   position: relative;
   z-index: 9;
 }
+
+.banner-slim {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+}
+.banner-slim .box-table {
+    display: none;
+}
+
+/* POTONG PADDING ATAS & BAWAH SECTION */
+.features-theme {
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+}
+
+/* POTONG JARAK HEADING */
+.features-theme .site-heading {
+    margin-bottom: 10px !important;
+}
+
+/* POTONG JARAK H2 */
+.features-theme .site-heading h2 {
+    margin-bottom: 10px !important;
+}
+
+/* POTONG JARAK LOGO */
+.features-theme .theme-logo {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+/* KECILIN LOGO DIKIT BIAR KOMPAK */
+.features-theme .theme-logo img {
+    max-width: 480px;
+}
+
+/* GARIS DEKORATIF (—— biru hitam) */
+.features-theme .site-heading::after,
+.features-theme .site-heading::before {
+    display: none !important;
+}
+
 
 .banner-area.wavesshape {
   position: relative;
