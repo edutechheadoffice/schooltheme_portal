@@ -321,7 +321,13 @@ p {
   object-fit: cover;   /* ini kuncinya */
 }
 
-
+.fit-bg {
+  background-size: contain;   /* FIT */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;          /* setinggi layar */
+  background-color: #ffffff56;     /* isi area kosong */
+}
 
 /* ============================================================== 
     # Helper CSS
@@ -332,6 +338,7 @@ p {
 	margin: auto;
 	max-width: 1400px;
 }
+
 
 @media (min-width: 576px) {
 	.container-full {
