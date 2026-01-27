@@ -5634,6 +5634,30 @@ footer.color-yellow .footer-bottom p a {
   color: var(--color-primary);
 }
 
+.brand-wrap {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo {
+    height: 42px;
+}
+
+.brand-divider {
+    width: 0.5px;
+    height: 30px;
+    background: rgb(18, 9, 77);
+}
+
+.brand-text {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: var(--color-paragraph);
+    white-space: nowrap;
+}
+
 /* ============================================================== 
      # Preloader 
 =================================================================== */
