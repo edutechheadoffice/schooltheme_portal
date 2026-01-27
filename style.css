@@ -4672,6 +4672,7 @@ body,
   height: 100%;
 }
 
+
 .comments-list .commen-item .avatar {
   float: left;
   height: 100px;
@@ -5076,6 +5077,16 @@ body,
   vertical-align: top;
   width: 30px;
 }
+
+
+.contact-us-area .job-title {
+  margin-bottom: 2px;
+}
+
+.contact-us-area .email {
+  margin-top: 0;
+}
+
 
 .contact-form img {
   margin-left: 10px;
