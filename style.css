@@ -44,6 +44,7 @@ Table of contents
 :root {
 	--font-default: 'Quicksand', 'Montserrat', sans-serif;
 	--font-heading: 'Quicksand', 'Montserrat', sans-serif;
+  --fontawesome: "Font Awesome 5 Pro";
 	--black: #000000;
 	--dark: #175b66;
 	--dark-secondary: #3c6268;
