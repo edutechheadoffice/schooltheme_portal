@@ -5221,6 +5221,7 @@ body,
   vertical-align: middle;
 }
 
+
 .companies-area .clients-items img {
   width: auto;
   margin: auto;
@@ -5835,6 +5836,8 @@ footer.color-yellow .footer-bottom p a {
 .icon-list {
     list-style: none;
     padding-left: 0;
+    font-size: 17px;
+    font-weight: 800;
 }
 
 .icon-list li {
@@ -5851,6 +5854,7 @@ footer.color-yellow .footer-bottom p a {
     font-size: 22px;
     line-height: 1;
 }
+
 
 .softing-preloader.loaded .animation-preloader {
 	opacity: 0;
