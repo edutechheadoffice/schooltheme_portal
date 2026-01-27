@@ -4279,6 +4279,10 @@ body,
   background-color: #3b5998;
 }
 
+.team-area .social li.spotify a {
+  background-color: #146c27;
+}
+
 .team-area .social li.g-plus a {
   background-color: #df4a32;
 }
