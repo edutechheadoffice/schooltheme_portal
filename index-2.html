@@ -110,17 +110,14 @@
         <source src="https://res.cloudinary.com/dmtqoxsct/video/upload/v1769561969/0128_i0x7za.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-
-    <!-- OVERLAY (optional biar teks kebaca) -->
     <div class="video-overlay"></div>
-
     <div class="box-table">
         <div class="box-cell">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="content" data-animation="animated fadeInUpBig">
-                            <h1> School Theme Journey</h1>
+                            <h1><span id="typing-text"> School Theme Journey</span></h1>
                             <p>
                                 Throughout our school journey, God’s presence is not only believed, but experienced and lived out in meaningful ways. One of the clearest expressions of this is reflected in the annual School Theme Competition.
                             </p>
@@ -480,6 +477,21 @@
     ============================================= -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+    <script>
+  new Typed('#typing-text', {
+    strings: [
+      'School Theme Journey'
+    ],
+    typeSpeed: 70,
+    backSpeed: 40,
+    backDelay: 1500,
+    startDelay: 500,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|'
+  });
+</script>
     <script src="assets/js/jquery.appear.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>

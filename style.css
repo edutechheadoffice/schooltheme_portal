@@ -503,11 +503,16 @@ p {
     position: relative;
     overflow: hidden;
     min-height: 100vh;
+    background: linear-gradient(
+        rgba(40, 141, 188, 0.85),
+        rgba(163, 132, 9, 0.7)
+    );
 }
 
 /* Video full background */
 .video-banner .bg-video {
     position: absolute;
+    opacity: 0.3;
     top: 50%;
     left: 50%;
     width: 100%;
@@ -518,15 +523,19 @@ p {
 }
 
 .video-banner .video-overlay {
-    position: absolute;
+   position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.45);
+    background: linear-gradient(
+        rgba(79, 195, 247, 0.65),
+        rgba(79, 195, 247, 0.4)
+    );
     z-index: 2;
 }
 
 .video-banner .box-cell {
     padding-top: 340px;
 }
+
 
   @media only screen and (max-width: 767px) {
     .video-banner .box-table {
