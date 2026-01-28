@@ -2522,13 +2522,12 @@ body,
     display: none;
 }
 
-/* POTONG PADDING ATAS & BAWAH SECTION */
+
 .features-theme {
     padding-top: 40px !important;
     padding-bottom: 20px !important;
 }
 
-/* POTONG JARAK HEADING */
 .features-theme .site-heading {
     margin-bottom: 10px !important;
 }
@@ -2538,11 +2537,11 @@ body,
     margin-bottom: 10px !important;
 }
 
-/* POTONG JARAK LOGO */
 .features-theme .theme-logo {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding: 0 !important;
+    margin-right: 52px;
 }
 
 /* KECILIN LOGO DIKIT BIAR KOMPAK */
