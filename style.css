@@ -42,7 +42,6 @@ Table of contents
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* Varialbes */
 :root {
-  --font-body: 'Quicksand', 'Montserrat', sans-serif;
 	--font-default: 'Quicksand', 'Montserrat', sans-serif;
 	--font-heading: 'Quicksand', 'Montserrat', sans-serif;
   --fontawesome: "Font Awesome 5 Pro";
