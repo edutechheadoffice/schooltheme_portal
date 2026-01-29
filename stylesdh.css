@@ -504,8 +504,8 @@ p {
     overflow: hidden;
     min-height: 100vh;
     background: linear-gradient(
-        rgba(40, 141, 188, 0.85),
-        rgba(163, 132, 9, 0.7)
+        rgba(20, 85, 114, 0.85),
+        rgba(255, 255, 255, 0.7)
     );
 }
 
