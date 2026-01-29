@@ -3421,6 +3421,46 @@ body,
     border-radius: 5px;
 }
 
+.school-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+
+    min-height: 260px;         /* 🔥 bikin card tinggi & konsisten */
+    padding: 40px 30px;
+
+    border-radius: 22px;
+    background: #ffffff;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 15px 4;
+}
+
+.school-card img  {
+    max-width: 300px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+.school-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Hover */
+.school-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+}
+
+/* Active click feedback */
+.school-card:active {
+    transform: scale(0.97);
+}
 
 .about-area .top-features .item > i {
     display: inline-block;
@@ -3961,6 +4001,14 @@ body,
 /* ============================================================== 
      # Overview 
 =================================================================== */
+.overview-area {
+    min-height: 70vh;     /* ganti dari 100vh */
+    max-height: 850px; 
+    padding: 120px 0 100px;   /* batas atas biar nggak kegedean */
+}
+
+
+
 
 .overview-area .nav-tabs li {
   display: inline-block;
