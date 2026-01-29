@@ -290,4 +290,5 @@
 	}
 	loader();
 
+    
 })(jQuery); // End jQuery

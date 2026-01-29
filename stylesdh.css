@@ -46,16 +46,16 @@ Table of contents
 	--font-heading: 'Quicksand', 'Montserrat', sans-serif;
   --fontawesome: "Font Awesome 5 Pro";
 	--black: #000000;
-	--dark: #175b66;
-	--dark-secondary: #3c6268;
+	--dark: #205eaa;
+	--dark-secondary: #5b81ab;
 	--white: #ffffff;
-	--color-primary: #267f8d;
-	--color-secondary: #1aebd6;
+	--color-primary: #05257c;
+	--color-secondary: #132d6f;
 	--color-heading: #232323;
 	--color-paragraph: #666666;
 	--box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
 	--bg-gray: #ebebeb;
-  --bg-theme-small: #e1ecf1;
+  --bg-theme-small: #dde4ed;
 	--bg-gray-secondary: #D8E7EF;
 	--bg-gradient: linear-gradient(90deg, var(--color-primary)  0%, var(--color-secondary) 100%);
 }
@@ -799,7 +799,7 @@ p {
 }
 
 .site-heading::before {
-  background: #4ac4f3;
+  background: #41439c;
   bottom: 0;
   content: "";
   height: 2px;
@@ -4523,7 +4523,7 @@ body,
 
 .marquee {
   width: max-content;
-  animation: marquee 25s linear infinite;
+  animation: marquee 120s linear infinite;
 }
 
 .marquee img {
@@ -4532,7 +4532,7 @@ body,
   max-width: 160px;
   object-fit: contain;
   margin: 0 35px;
-  opacity: 0.75;
+  opacity: 0.8;
   transition: opacity 0.3s ease;
 }
 
@@ -6002,7 +6002,7 @@ footer.color-yellow .footer-bottom p a {
     content: "•";
     position: absolute;
     left: 0;
-    color: #3ab8ff;
+    color: #151a4d;
     font-size: 22px;
     line-height: 1;
 }
