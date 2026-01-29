@@ -463,6 +463,10 @@ p {
 	background: var(--bg-theme-small);
 }
 
+.color-secondary {
+    color: var(--color-secondary);
+}
+
 .bg-light {
 	background-color: var(--white);
 }
