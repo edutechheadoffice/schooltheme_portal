@@ -4523,7 +4523,7 @@ body,
 
 .marquee {
   width: max-content;
-  animation: marquee 25s linear infinite;
+  animation: marquee 120s linear infinite;
 }
 
 .marquee img {
