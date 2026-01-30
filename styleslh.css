@@ -3964,6 +3964,29 @@ body,
   margin: 0 3px;
   margin-bottom: 10px;
 }
+/* Warna default (non-active) */
+#yearFilter .nav-link {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background: transparent;
+  margin: 0 6px;
+  border-radius: 50px;
+  padding: 10px 22px;
+  transition: all .3s ease;
+}
+
+/* Hover */
+#yearFilter .nav-link:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* Active */
+#yearFilter .nav-link.active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
 
 .overview-area .nav-tabs {
   display: block;
@@ -4519,6 +4542,37 @@ body,
 .marquee-wrapper {
   position: relative;
   width: 100%;
+}
+
+.marquee-wrapper::before,
+.marquee-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;           /* lebar efek gradient */
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; /* biar gak ganggu hover */
+}
+
+/* kiri */
+.marquee-wrapper::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255,255,255,0) 100%
+  );
+}
+
+/* kanan */
+.marquee-wrapper::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    #ffffff 0%,
+    rgba(255,255,255,0) 100%
+  );
 }
 
 .marquee {

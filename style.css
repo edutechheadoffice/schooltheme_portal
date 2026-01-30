@@ -3471,6 +3471,26 @@ body,
     transform: scale(0.97);
 }
 
+.year-group {
+  transition: opacity .45s ease, transform .45s ease;
+}
+
+.year-group.is-hidden {
+  opacity: 0;
+  transform: translateX(-40px);
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+
+.year-group.is-active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+}
+
+
+
 .about-area .top-features .item > i {
     display: inline-block;
     color: var(--color-primary);
