@@ -5869,7 +5869,7 @@ footer.color-yellow .footer-bottom p a {
 
 /* Logo */
 .navbar-brand img.logo {
-    width: 48px;        /* JANGAN persen */
+    width: 48px;        
     height: auto;
 }
 
@@ -5885,6 +5885,10 @@ footer.color-yellow .footer-bottom p a {
     font-size: 20px;
     font-weight: 600;
     color: white;
+}
+
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 
