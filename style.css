@@ -6103,6 +6103,33 @@ footer.color-yellow .footer-bottom p a {
 	transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
 }
 
+.logo-scrolled {
+    display: none;
+}
+
+.navbar-fixed.scrolled .logo-display {
+    display: none;
+}
+
+.navbar-fixed.scrolled .logo-scrolled {
+    display: inline-block;
+}
+
+.brand-divider {
+    width: 1px;
+    height: 28px;
+    margin: 0 10px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.brand-text {
+    color: white;
+    font-weight: 600;
+    vertical-align: middle;
+}
 
 
 @-webkit-keyframes spinner {
