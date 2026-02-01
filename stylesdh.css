@@ -5821,15 +5821,20 @@ footer.color-yellow .footer-bottom p a {
 }
 
 .brand-wrap {
-    display: flex !important;
+    display: flex;
     align-items: center;
-    gap: 12px;
 }
 
 .brand-logo {
-    height: 42px;
+    height: 42px;          /* 🔥 kunci utama */
+    width: auto;           /* biar proporsional */
+    object-fit: contain;
 }
 
+.logo-phg {
+  height: 170px;
+    margin-left: 12px;
+}
 
 .brand-divider {
     width: 1px;
