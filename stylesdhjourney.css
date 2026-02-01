@@ -5845,18 +5845,17 @@ footer.color-yellow .footer-bottom p a {
 
 
 .brand-divider {
-    width: 1px;
+   width: 1px;
     height: 28px;
     margin: 0 10px;
-    background-color: white;
-    display: inline-block;
-    vertical-align: middle;
+    background: rgb(255, 255, 255);
 }
 
 .brand-text {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    color: #1f2a44;
+    letter-spacing: 0.4px;
+    color: #ffffff;
     white-space: nowrap;
 }
 
@@ -5866,27 +5865,6 @@ footer.color-yellow .footer-bottom p a {
     gap: 14px;
     white-space: nowrap;
 }
-
-/* Logo */
-.navbar-brand img.logo {
-    width: 48px;        
-    height: auto;
-}
-
-/* Divider */
-.brand-divider {
-    width: 1px;
-    height: 32px;
-    background-color: rgba(255,255,255,0.6);
-}
-
-/* Text brand */
-.brand-text {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-}
-
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }

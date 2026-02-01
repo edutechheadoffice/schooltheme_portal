@@ -5832,8 +5832,9 @@ footer.color-yellow .footer-bottom p a {
 
 
 .brand-divider {
-    width: 0.5px;
-    height: 30px;
+    width: 1px;
+    height: 28px;
+    margin: 0 10px;
     background: rgb(18, 9, 77);
 }
 
