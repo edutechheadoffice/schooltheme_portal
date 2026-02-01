@@ -5827,7 +5827,7 @@ footer.color-yellow .footer-bottom p a {
 }
 
 .brand-logo {
-    height: 42px;
+    height: 25px;
 }
 
 
@@ -5851,6 +5851,10 @@ footer.color-yellow .footer-bottom p a {
     background: rgb(255, 255, 255);
 }
 
+.logo-SDH {
+    height: 30px;
+}
+
 .brand-text {
     font-size: 15px;
     font-weight: 600;
@@ -5867,6 +5871,18 @@ footer.color-yellow .footer-bottom p a {
 }
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .navbar .navbar-brand .brand-text,
+  .navbar .navbar-brand .brand-divider {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .logo-SDH {
+    width: 45%;
+  }
 }
 
 

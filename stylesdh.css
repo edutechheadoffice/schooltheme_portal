@@ -5826,7 +5826,7 @@ footer.color-yellow .footer-bottom p a {
 }
 
 .brand-logo {
-    height: 42px;          /* 🔥 kunci utama */
+    height: 30px;          /* 🔥 kunci utama */
     width: auto;           /* biar proporsional */
     object-fit: contain;
 }
@@ -5849,6 +5849,17 @@ footer.color-yellow .footer-bottom p a {
     letter-spacing: 0.4px;
     color: var(--color-paragraph);
     white-space: nowrap;
+}
+
+/* HP / Mobile */
+@media (max-width: 768px) {
+  .brand-divider,
+  .brand-text {
+    display: none !important;
+  }
+  .brand-logo {
+   width: 50%;          /* 🔥 kunci utama */
+  }
 }
 
 /* ============================================================== 
