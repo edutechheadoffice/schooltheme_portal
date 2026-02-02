@@ -312,10 +312,54 @@ p {
 
 
 
+.profile-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* FOTO */
 .profile-img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;   /* ini kuncinya */
+  width: 220px;
+  border-radius: 18px;
+  transition: transform 0.4s ease;
+}
+
+/* OVERLAY WA */
+.wa-hover-btn {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.55);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+
+  opacity: 0;
+  transform: translateY(12px);
+  transition: all 0.35s ease;
+}
+
+/* ICON WA */
+.wa-hover-btn i {
+  font-size: 22px;
+  color: #25D366;
+}
+
+/* HOVER EFFECT */
+.profile-wrapper:hover .profile-img {
+  transform: scale(1.05);
+}
+
+.profile-wrapper:hover .wa-hover-btn {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .fit-bg {
