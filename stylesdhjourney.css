@@ -4353,6 +4353,28 @@ body,
   color: #fff;
   border-color: var(--color-primary);
 }
+@media (max-width: 576px) {
+  #yearFilter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  #yearFilter .nav-item {
+    width: 100%;
+  }
+
+  #yearFilter .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+
+
+
 
 .team-area .info span {
   color: var(--color-primary);
